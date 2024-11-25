@@ -1,0 +1,61 @@
+﻿Race,Race = Date + R-Number + R-Location
+Runners,Runners = H-Name + H-Number per Race
+Date,Date of Race
+Plc,Final Placing of top 4 Runners in a Race
+R-Number,Race Number
+R-Location,Race Location
+H-Number,Horse Number
+H-Name,Horse Name
+B-Price,not a Runners value but the intended Betting value on the Race
+Price,BookMaker Price
+RTD Price,Price Calculation of WW% and Price2
+Rev RTD Pr,Other Calculated Price
+V4 RTD Pr,Other Calculated Price
+T4,Ranked Total of Price Rnk + TTL Rnk
+T5,Ranked Rating/Average of Lowest 4 value
+T4TL,T4 Calculation
+T5TL,T5 Calculation
+RSBF %,Percentage price from Average of RS-NP and BF-P
+Rev RTG,Other Calculated Ratings
+BF Top5,BetFair Top 5 Rankings in this Race
+Price Rnk,BookMaker Price Rank in this Race
+RS-NP Rnk,RS-NP Rank in this Race
+BF-P Rnk,BF-P Rank in this Race
+RSBF Rnk,RSBF Rank in this Race
+TTL Rnk,RTD Price Rank in this Race
+Rev Rnk,Rev Rank in this Race
+V4 Rnk,V4 Rank in this Race
+DLR,Number of Days from last Run
+NOR,Number Of Runs
+P%,Runners Placed% in the last few races
+JH%,Rider + Runners Placed% from previous races together
+L4R,Each digit represents Runners placings in the last 4 Race
+TOL3R,Sum Of last 3 digits of L4R
+RU&P,The number of runs the runner has had in this campaign & Runners Pace
+A-S,Runners Age and Sex
+Wgt,Runners Weight on this Race
+WC,Runners Weight Change from last Race
+DC,Runners Disctance Change from last Race
+Barr,Runners Barrier placement
+Rider,Rider on todays Runner
+Trainer,Runners Trainer
+RS-NP,RS-N Price
+BF-P,BetFair Price
+RSBF Price,RSBF Price
+Class,Runners given Class
+Class Chk,Runners Given Class
+Price Rank,Price Rank
+RSBF PRnk,RSBF Price Rank
+Barr Rank,Barr Rank
+DTW,Total given to Runner if they Won on this R-Location or of Todays Race distance
+TOL3R Form,TOL3R Form
+RD Pr/Barr,RD Pr/Barr
+V4 Class,Other Class Calculation
+Pr/Barr,Pr/Barr
+Wgt_1,Wgt Calcuation Rank
+Class_2,Class Calculation Rank
+DTW-Cal,DTW Calculation Rnk
+TOTAL,Total of some calculation
+RATING,TOTAL Ranking
+WW%,Calculation from RATING/SUM(RATING per Race)
+PRICE2,Price calculation of 1/(WW%+0.001)
